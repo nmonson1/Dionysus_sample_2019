@@ -81,7 +81,7 @@ filt = d.Filtration(simplices)
 matrix = d.homology_persistence(filt)
 dgms = d.init_diagrams(matrix, filt)
 elapsed = str(t.time() - start)
-print("alpha computation in 2 dimtook " +elapsed+ " seconds.")
+print("alpha computation in 2 dim took " +elapsed+ " seconds.")
 
 
 display_pts(pts)
